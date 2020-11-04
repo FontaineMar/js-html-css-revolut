@@ -16,7 +16,7 @@ nav{
   justify-content: space-between;
   height: 150px;
 }
-.nav-right{
+.navRight{
   display: flex;
   align-items: center;
   position: relative;
@@ -39,7 +39,7 @@ nav{
   color: black;
 }
 
-.nav-right > ul > li{
+.navRight > ul > li{
   display: inline-block;
   margin-right:10px;
 
@@ -98,7 +98,14 @@ li{
   position: absolute;
   top: 100px;
   right: 30px;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
+  display:none;}
+
+.none{
+  display: none;
+}
+.flex{
+  display: flex;
 }
