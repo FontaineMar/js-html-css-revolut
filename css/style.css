@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 15px;
+}
+
+nav{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+
+.logo > img{
+  width: 150px;
+}
+
+.account > a{
+  text-decoration: none;
+  display: inline-block;
+  font-size:1.2rem;
+  margin-left:10px;
+  color: black;
+}
+
+.nav-right > ul > li{
+  display: inline-block;
+  margin-right:10px;
+
+}
+
+.btn > button {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: pink;
+  color: #fff;
+  font-size:1.2rem;
+  border-radius: 50px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.help{
+  width:100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  right:120px;
+  display: none;
+}
+
+.mission{
+  width:100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  right:180px;
+  display: none;
+}
+
+.product{
+  width:100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  right: 250px;
+  display: none;
+}
+.lang{
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  right:150px;
+  display: none;
+}
+
+.cost{
+  width:700px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
