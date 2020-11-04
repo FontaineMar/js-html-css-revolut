@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+// CLASS COST
   var hoverCost = $('#cost')
   hoverCost.mouseenter( function() {
       $('.cost').slideDown();
@@ -11,7 +12,7 @@ $(document).ready(function(){
       $('.cost').slideUp();
   })
 
-
+// CLASS PRODUCT
   var hoverProduct = $('#product')
   hoverProduct.mouseenter( function() {
       $('.product').slideDown();
@@ -23,6 +24,7 @@ $(document).ready(function(){
       $('.product').slideUp();
   })
 
+// CLASS MISSION
   var hoverMission = $('#mission')
   hoverMission.mouseenter( function() {
       $('.mission').slideDown();
@@ -34,6 +36,7 @@ $(document).ready(function(){
       $('.mission').slideUp();
   })
 
+// CLASS HELP
   var hoverHelp = $('#help')
   hoverHelp.mouseenter( function() {
       $('.help').slideDown();
@@ -45,6 +48,12 @@ $(document).ready(function(){
       $('.help').slideUp();
   })
 
+  // CLASS lang
+  var clickLang = $('#lang')
+  clickLang.click( function() {
+    $('.lang').toggle();
+    $('#lang > i').toggleClass('rotate');
+  })
 })
 // $( "li" ).hover(
 //   function() {

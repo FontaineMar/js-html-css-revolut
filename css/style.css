@@ -101,11 +101,9 @@ li{
   display: none;
   flex-direction: row;
   justify-content: space-between;
-  display:none;}
-
-.none{
-  display: none;
+  display:none;
 }
-.flex{
-  display: flex;
+
+.rotate{
+  transform: rotate(180deg);
 }
