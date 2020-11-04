@@ -28,20 +28,25 @@ nav{
 }
 
 .logo > img{
-  width: 150px;
+  width: 200px;
 }
 
 .account > a{
   text-decoration: none;
   display: inline-block;
-  font-size:1.2rem;
   margin-left:10px;
   color: black;
+  font-size:1.4rem;
 }
-
+.account > a:last-child{
+  color: #8c8e8f;
+}
 .navRight > ul > li{
   display: inline-block;
   margin-right:10px;
+  color: #8c8e8f;
+  font-size: 1.4rem;
+
 
 }
 
@@ -59,51 +64,78 @@ li{
 }
 
 .help{
-  width:100px;
-  background-color: blue;
+  font-size:1.2rem;
+  color: #8c8e8f;
+  box-shadow: 0px 5px 5px 5px lightgrey;
   position: absolute;
-  top: 100px;
-  right:120px;
-  display: none;
-}
-
-.mission{
-  width:100px;
-  background-color: blue;
-  position: absolute;
-  top: 100px;
+  top: 90px;
   right:180px;
   display: none;
 }
 
-.product{
-  width:100px;
-  background-color: blue;
+.help > ul > li{
+  margin:10px 30px;
+}
+
+.mission{
+  font-size:1.2rem;
+  color: #8c8e8f;
+  box-shadow: 0px 5px 5px 5px lightgrey;
   position: absolute;
-  top: 100px;
-  right: 250px;
+  top: 90px;
+  right:240px;
   display: none;
 }
-.lang{
-  background-color: blue;
+.mission > ul > li{
+  margin:10px 30px;
+
+}
+.product{
+  font-size:1.2rem;
+  color: #8c8e8f;
+  box-shadow: 0px 5px 5px 5px lightgrey;
   position: absolute;
-  top: 100px;
-  right:150px;
+  top: 90px;
+  right:320px;
   display: none;
+}
+.product > ul > li{
+  margin:10px 30px;
+}
+
+.lang{
+  font-size:1.2rem;
+  color: #8c8e8f;
+  box-shadow: 0px 5px 5px 5px lightgrey;
+  position: absolute;
+  top: 90px;
+  right:120px;
+  display: none;
+}
+.lang > ul > li{
+  margin:10px 30px;
 }
 
 .cost{
-  width:700px;
-  background-color: blue;
+  min-width:800px;
+  font-size:1.2rem;
+  color: #8c8e8f;
+  box-shadow: 0px 5px 5px 5px lightgrey;
   position: absolute;
-  top: 100px;
-  right: 30px;
+  top: 90px;
+  right:150px;
   display: none;
-  flex-direction: row;
-  justify-content: space-between;
-  display:none;
 }
+.cost > ul{
+  vertical-align: top;
+  display: inline-block;
+  text-align:center;
+  margin:10px 30px;
+}
+.cost > ul > li{
+    margin:10px 30px;
 
+}
 .rotate{
   transform: rotate(180deg);
 }
